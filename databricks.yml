@@ -26,6 +26,12 @@ variables:
     default: "flights_test"
   flights_dlt_schema:
     default: "dustinvannoy_dev"
+  node_type_id:
+    default: "m6gd.xlarge"
+
+artifacts:
+  default:
+    type: whl
 
 targets:
   # The 'dev' target, used for development purposes.
